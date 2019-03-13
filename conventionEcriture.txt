@@ -1,0 +1,57 @@
+Afin de faciliter la coopération entre nous trois, essayons de nous conformer le plus possible à ces quelques conventions d'écriture.
+
+1.  Rédiger les Attributs et les Propriétés de la manière suivante :
+    Attributs : _nomPropriete
+    Propriétés : NomPropriete
+
+2.  Grouper les Propriétés avec les Attributs en début de Fonction/Méthode, puis le Programme Principal/les Méthodes.
+    Exemple :   _nomPerso
+                NomPerso
+
+                _prenomPerso
+                PrenomPerso
+
+                public Perso()
+                {
+                    NomPerso = "LAMORDOUX";
+                    PrenomPerso = "Vinmille";
+                }
+
+3.  Pour les noms de Fonction/Méthode - Utiliser des verbes (en Français) à l'infinitif en commençant par une majuscule.
+    Exemple :   Attaquer(), et pas attack().
+
+4.  Aérer le code en faisant des sauts de ligne et des blocs de ////////// aux endroits appropriés.
+    Exemple :   boutDeCodePourLaDefenseDuPersonnage;
+                
+                ////////////////////////////
+                
+                //CommentaireExplicatif
+                boutDeCodePourLeTourSuivant;
+                
+                Et pas
+
+                boutDeCodePourLaDefenseDuPersonnage;
+                boutDeCodePourLeTourSuivant; .
+
+5.  Commenter régulièrement les bouts de code, même là où ça semble relativement simple.
+    Exemple :   //Calcul de la quantité de dégâts générée aléatoirement entre 1 et 9 inclus
+                qteDegats = new Random.Next(1, 10);
+
+6.  Classer les champs, constructeur et méthodes respectivement dans des régions.
+    Exemple :   #region Champs
+                champs 1
+                champs 2
+                ...
+                #endregion
+
+                #region constructeur
+                constructeur 1
+                constructeur 2
+                ...
+                #endregion
+
+                #region méthodes
+                méthode 1
+                méthode 2
+                ...
+                #endregion
