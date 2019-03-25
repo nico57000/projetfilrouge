@@ -17,7 +17,7 @@ namespace Projet
             //Console.SetWindowPosition(0, 0);
             Console.SetCursorPosition(28,76);
 
-            string path = "C:\\Users\\rcmd\\source\\repos\\projetfilrouge\\map.txt";
+            string path = @"..\..\Map.txt";
             string line;
 
             StreamReader stream = new StreamReader(path);
